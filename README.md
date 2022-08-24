@@ -309,6 +309,7 @@ Python has a huge library of base packages that we can perfrom common and useful
 * [statistics](https://docs.python.org/3/library/statistics.html) - mathematical statistics functions
 * [itertools](https://docs.python.org/3/library/itertools.html) - has functions for creating iterators for efficient looping
 * [shutil](https://docs.python.org/3/library/shutil.html) - used for file managment
+* [pathlib](https://docs.python.org/3/library/pathlib.html) - has functions for object-oriented filesystem paths
 ````python
 import random                         # import entier package with import function
 from random import shuffle            # import specific module with from and import

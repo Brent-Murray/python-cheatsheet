@@ -1,5 +1,5 @@
 # python-cheatsheets
-Useful python cheatsheet with useful examples.
+Python cheatsheet with examples.
 
 Useful scripts can be found in [scripts](https://github.com/Brent-Murray/python-cheatsheets/tree/main/scripts) folder.
 

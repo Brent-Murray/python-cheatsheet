@@ -19,6 +19,7 @@ Table of Contents
 | [For and While Loops](https://github.com/Brent-Murray/python-cheatsheets#for-and-while-loops)
 | [Working with Dictionaries](https://github.com/Brent-Murray/python-cheatsheets#working-with-dictionaries)
 | [Functions](https://github.com/Brent-Murray/python-cheatsheets#functions)
+| [Exceptions](https://github.com/Brent-Murray/python-cheatsheets#exceptions)
 |
 
 Variables
@@ -276,4 +277,26 @@ except ValueError:                         # ValueError is raised if input is no
   print("Input is not a valid number")
 except ZeroDivisionError:                  # ZeroDivisionError is raised if population is 0
   print("Population cannot be 0")
+````
+
+Python Standard Library
+----
+Python has a huge library of base packages that we can perfrom common and useful tasks. Some of these useful packages include:
+* os[https://docs.python.org/3/library/os.html#module-os] - various operating system functions
+* sys[https://docs.python.org/3/library/sys.html] - system parameters and functions
+* [datetime](https://docs.python.org/3/library/datetime.html) - used for data and time manipulation
+* [glob](https://docs.python.org/3/library/glob.html) - used for finding paths with specified patterns
+* [random](https://docs.python.org/3/library/random.html) - used for generating pseudo-random numbers
+* [statistics](https://docs.python.org/3/library/statistics.html) - mathematical statistics functions
+* [itertools](https://docs.python.org/3/library/itertools.html) - has functions for creating iterators for efficient looping
+* [shutil](https://docs.python.org/3/library/shutil.html) - used for file managment
+````python
+import random                         # import entier package with import function
+from random import shuffle            # import specific module with from and import
+import statistics as stats            # import package and shorten name with as
+
+my_list = [20, 15, 7, 15, 8]
+random.choice(my_list)                # use the choice module from random package
+shuffle(my_list)                      # uses shuffle module from random without calling random first
+mean_list = stast.mean(my_list)       # uses stats (shortend from statistics in import) to run mean module
 ````

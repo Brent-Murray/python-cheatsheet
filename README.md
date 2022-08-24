@@ -233,3 +233,30 @@ keys = ["First Key", "Second Key", "Third Key", "Fourth Key"]
 values = [1, 2, 3, 4]
 my_new_dict = dict(zip(keys, values)) # creates a dictionary from two lists using dict and zip functions
 ````
+
+Functions
+````python
+# Basic Function
+def my_basic_function(in_number):     # define a function with def
+  print(in_number)                    # what the function does
+  
+my_basic_function(10)                 # call function
+  
+# Positional Function (position of the variables matters when calling function)
+def my_subtraction_function(first_number, second_number):
+  x = first_number - second_number
+  
+  return x                            # we can return the a variable from function with return
+
+my_subtraction_function(10, 2)        # returns 8
+my_subtraction_function(2, 10)        # returns -8
+  
+# Key Word Function (variable is predefined)
+def my_addition_function(first_number, second_number=10):
+  x = first_number + second_number
+  
+  return x
+
+my_addition_function(2)               # returns 12
+my_addition_function(2, 15)           # returns 17 
+````

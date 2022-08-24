@@ -27,7 +27,7 @@ Working with Strings
 ````python
 my_string = "Hello World"
 
-# Get character from string
+# Indexing strings
 my_string[0]                   # returns first character "H"
 my_string[-1]                  # returns last character "d"
 
@@ -53,6 +53,29 @@ contains = "drink" in message  # returns boolean (True/False) if string contains
 message.startswith('My')       # returns boolean (True/False) if string starts with character/string
 message.endswith("coffee")     # returns boolean (True/False) if string ends with character/string
 ````
+Working with Lists
+----
+````python
+my_list = [5, 3, 4, 6, 10, 15] # a list is defined by []
+
+# Indexing lists
+my_list[4]                     # returns 5th item in list
+my_list[-2]                    # returns 2nd item from the end
+
+# Slicing lists
+my_list[1:4]                   # returns items from list between index position 1 and 4 (excluding 4) [3, 4, 6]
+
+# Manipulating lists
+my_list.append(15)             # adds new item to end of list
+my_list.insert(2, 15)          # adds new item at index position 2
+my_list.remove(15)             # removes item from list (first occurance)
+my_list.pop()                  # removes last item from list
+my_list.index(10)              # returns the index position of first occurance
+my_list.sort()                 # sorts the list
+my_list.reverse()              # reverses the list
+my_list.copy()                 # returns copy of list
+my_list.clear()                # removes all items from list
+````
 
 Arithmetic Operators
 ----
@@ -66,4 +89,18 @@ x * y                          # multiplication
 x / y                          # division
 x ** y                         # exponentation (x to the power of y)
 x % y                          # modulus (remainder of division)
+````
+
+Comparison Operators
+----
+````python
+x = 8
+y = 15
+
+x > y                          # returns boolean (True/False) if greater than
+x >= y                         # returns boolean (True/False) if greater than or equal to
+x < y                          # returns boolean (True/False) if less than
+x <= y                         # returns boolean (True/False) if less than or equal to
+x == y                         # returns boolean (True/False) if equal to
+x != y                         # returns boolean (True/False) if not equal to
 ````

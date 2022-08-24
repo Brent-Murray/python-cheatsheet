@@ -279,11 +279,11 @@ except ZeroDivisionError:                  # ZeroDivisionError is raised if popu
   print("Population cannot be 0")
 ````
 
-Python Standard Library
+Python Standard Library and Importing
 ----
 Python has a huge library of base packages that we can perfrom common and useful tasks. Some of these useful packages include:
-* os[https://docs.python.org/3/library/os.html#module-os] - various operating system functions
-* sys[https://docs.python.org/3/library/sys.html] - system parameters and functions
+* [os](https://docs.python.org/3/library/os.html#module-os) - various operating system functions
+* [sys](https://docs.python.org/3/library/sys.html) - system parameters and functions
 * [datetime](https://docs.python.org/3/library/datetime.html) - used for data and time manipulation
 * [glob](https://docs.python.org/3/library/glob.html) - used for finding paths with specified patterns
 * [random](https://docs.python.org/3/library/random.html) - used for generating pseudo-random numbers

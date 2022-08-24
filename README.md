@@ -318,7 +318,7 @@ import statistics as stats            # import package and shorten name with as
 my_list = [20, 15, 7, 15, 8]
 random.choice(my_list)                # use the choice module from random package
 shuffle(my_list)                      # uses shuffle module from random without calling random first
-mean_list = stast.mean(my_list)       # uses stats (shortend from statistics in import) to run mean module
+mean_list = stats.mean(my_list)       # uses stats (shortend from statistics in import) to run mean module
 ````
 
 Installing Packages

@@ -20,6 +20,7 @@ Table of Contents
 | [Working with Dictionaries](https://github.com/Brent-Murray/python-cheatsheets#working-with-dictionaries)
 | [Functions](https://github.com/Brent-Murray/python-cheatsheets#functions)
 | [Exceptions](https://github.com/Brent-Murray/python-cheatsheets#exceptions)
+| [Python Standard Library and Importing](https://github.com/Brent-Murray/python-cheatsheets#python-standard-library-and-importing)
 |
 
 Variables

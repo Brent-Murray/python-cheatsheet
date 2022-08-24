@@ -16,6 +16,7 @@ Table of Contents
 | [Logical Operators](https://github.com/Brent-Murray/python-cheatsheets#logical-operators)
 | [Augmented Assignment Operator](https://github.com/Brent-Murray/python-cheatsheets#augmented-assignment-operator)
 | [For and While Loops](https://github.com/Brent-Murray/python-cheatsheets#for-and-while-loops)
+|
 
 Variables
 ----

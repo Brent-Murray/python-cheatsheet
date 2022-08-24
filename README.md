@@ -14,6 +14,8 @@ Table of Contents
 | [Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
 | [If Else Statements](https://github.com/Brent-Murray/python-cheatsheets#if-else-statements)
 | [Logical Operators](https://github.com/Brent-Murray/python-cheatsheets#logical-operators)
+| [Augmented Assignment Operator](https://github.com/Brent-Murray/python-cheatsheets#augmented-assignment-operator)
+| [For and While Loops](https://github.com/Brent-Murray/python-cheatsheets#for-and-while-loops)
 
 Variables
 ----
@@ -177,8 +179,13 @@ Augmented Assignment Operator
 ----
 ````python
 x = 5
-x = x + 5                      # add 5 to x and replacing variable x
+x = x + 5                      # add 5 to x and reassign variable x
 x += 5                         # same as above but more concise 
+x -= 5                         # subtract 5 from x and reassign x
+x *=10                         # multiply x by 10 and reassign x
+x /=5                          # divide x by 5 and reassign x
+x %=2                          # modulus of x and 2 and reassign x
+x **=2                         # power of 2 to x and reassign x
 ````
 
 For and While Loops

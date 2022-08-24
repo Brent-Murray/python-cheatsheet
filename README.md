@@ -12,7 +12,8 @@ Table of Contents
 | [Arithmetic Operators](https://github.com/Brent-Murray/python-cheatsheets#arithmetic-operators)
 | [Comparison Operators](https://github.com/Brent-Murray/python-cheatsheets#comparison-operators)
 | [Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
-| [
+| [If Else Statements](https://github.com/Brent-Murray/python-cheatsheets#if-else-statements)
+| [Logical Operators](https://github.com/Brent-Murray/python-cheatsheets#logical-operators)
 
 Variables
 ----
@@ -170,4 +171,27 @@ if a is not True               # variable is not True
   print("a is not True")
 else:
   print("a is not False")
+````
+
+Augmented Assignment Operator
+----
+````python
+x = 5
+x = x + 5                      # add 5 to x and replacing variable x
+x += 5                         # same as above but more concise 
+````
+
+For and While Loops
+----
+````python
+# For loop
+sequence = range(1, 7)         # range function creates sequence of numbers between values
+for i in sequence:             # loop through all items
+  print(i)
+
+# While loop
+i = 0
+while i < 10:                  # loop while condition is met
+  print(i)
+  i += 1
 ````

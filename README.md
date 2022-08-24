@@ -17,7 +17,7 @@ Table of Contents
 | [Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
 | [If Else Statements](https://github.com/Brent-Murray/python-cheatsheets#if-else-statements)
 | [Logical Operators](https://github.com/Brent-Murray/python-cheatsheets#logical-operators)
-| [Augmented Assignment Operator](https://github.com/Brent-Murray/python-cheatsheets#assignment-operator)
+| [Assignment Operators](https://github.com/Brent-Murray/python-cheatsheets#assignment-operator)
 | [For and While Loops](https://github.com/Brent-Murray/python-cheatsheets#for-and-while-loops)
 | [Working with Dictionaries](https://github.com/Brent-Murray/python-cheatsheets#working-with-dictionaries)
 | [Functions](https://github.com/Brent-Murray/python-cheatsheets#functions)
@@ -202,7 +202,7 @@ else:
   print("a is not False")
 ````
 
-Assignment Operator
+Assignment Operators
 ----
 Assignment operators are used to assign values to a variable with one of the [Arithmetic Operators](https://github.com/Brent-Murray/python-cheatsheets#arithmetic-operators).
 ````python

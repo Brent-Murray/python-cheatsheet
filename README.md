@@ -5,7 +5,7 @@ Useful scripts can be found in [scripts](https://github.com/Brent-Murray/python-
 
 Table of Contents
 ----
-## Basic Python
+#### Basic Python
 
 | [Variables](https://github.com/Brent-Murray/python-cheatsheets#variables)
 | [Commenting](https://github.com/Brent-Murray/python-cheatsheets#commenting)

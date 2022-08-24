@@ -18,6 +18,7 @@ Table of Contents
 | [Augmented Assignment Operator](https://github.com/Brent-Murray/python-cheatsheets#augmented-assignment-operator)
 | [For and While Loops](https://github.com/Brent-Murray/python-cheatsheets#for-and-while-loops)
 | [Working with Dictionaries](https://github.com/Brent-Murray/python-cheatsheets#working-with-dictionaries)
+| [Functions](https://github.com/Brent-Murray/python-cheatsheets#functions)
 |
 
 Variables

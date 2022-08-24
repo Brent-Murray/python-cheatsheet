@@ -9,6 +9,7 @@ Table of Contents
 | [Commenting](https://github.com/Brent-Murray/python-cheatsheets#commenting)
 | [Working with Strings](https://github.com/Brent-Murray/python-cheatsheets#working-with-strings)
 | [Working with Lists](https://github.com/Brent-Murray/python-cheatsheets#working-with-lists)
+| [Working with Tuples](https://github.com/Brent-Murray/python-cheatsheets#working-with-tuples)
 | [Arithmetic Operators](https://github.com/Brent-Murray/python-cheatsheets#arithmetic-operators)
 | [Comparison Operators](https://github.com/Brent-Murray/python-cheatsheets#comparison-operators)
 | [Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
@@ -16,6 +17,7 @@ Table of Contents
 | [Logical Operators](https://github.com/Brent-Murray/python-cheatsheets#logical-operators)
 | [Augmented Assignment Operator](https://github.com/Brent-Murray/python-cheatsheets#augmented-assignment-operator)
 | [For and While Loops](https://github.com/Brent-Murray/python-cheatsheets#for-and-while-loops)
+| [Working with Dictionaries](https://github.com/Brent-Murray/python-cheatsheets#working-with-dictionaries)
 |
 
 Variables
@@ -92,6 +94,13 @@ my_list.sort()                 # sorts the list
 my_list.reverse()              # reverses the list
 my_list.copy()                 # returns copy of list
 my_list.clear()                # removes all items from list
+````
+
+Working with Tuples
+----
+````python
+my_tuple = (5, 2, 4)           # tuples are read-only lists and defined by ()
+x, y, z = my_tuple             # unpack a tuple into separate variables (also works with lists)
 ````
 
 Arithmetic Operators
@@ -202,4 +211,25 @@ i = 0
 while i < 10:                  # loop while condition is met
   print(i)
   i += 1
+````
+
+Working with Dictionaries
+----
+````python
+my_dict = {                    # define dictionaries with {}
+  "First Key": "First Value",  # key and value pairs separated with :
+  "Second Key": 2,             # must include , if more key/value pairs needed 
+  "Third Key": True
+}
+
+my_dict["First Key"]           # returns value of defined key
+my_ dict["First Key"] = "New"  # replaces value of defined key
+my_dict.keys()                 # returns collection of keys in dictionary
+my_dict.values()               # returns collection of values in dictionary
+my_dict.items()                # returns collection of key/value pairs
+
+# Create a dictionary from two lists
+keys = ["First Key", "Second Key", "Third Key", "Fourth Key"]
+values = [1, 2, 3, 4]
+my_new_dict = dict(zip(keys, values)) # creates a dictionary from two lists using dict and zip functions
 ````

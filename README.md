@@ -1,7 +1,7 @@
 # Python Cheat Sheet
 Python cheatsheet with examples. This cheatsheet will continually be updated so be sure to check back frequently!
 
-Useful scripts can be found in [scripts](https://github.com/Brent-Murray/python-cheatsheets/tree/main/scripts) folder.
+Useful scripts and functions that could be useful to you can be found in the [scripts](https://github.com/Brent-Murray/python-cheatsheets/tree/main/scripts) folder.
 
 Table of Contents
 ----

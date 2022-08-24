@@ -24,29 +24,16 @@ def quick_print(names_list):
             
             
 names = [
-    # "Rik",
-    # "Martin",
-    "Brent",
-    # "Ramon",
-    "Hana",
-    "Harry",
-    "Samuel",
-    # "Liam",
-    # "Spencer",
-    "Andrew",
-    # "Bud",
-    "Evan",
-    # "Leanna",
-    "Tristan D",
-    # "Tommaso",
-    # "Gonzalo",
-    # "Francois",
-    "Paul",
-    "Claire",
-    "Cameron",
-    "Federico",
-    # "Leonard",
+    "Billy",
+    "Amanda",
+    "Joe",
+    "Brittany",
+    "Owen",
     "James",
+    "Sarah",
+    "Fred",
+    "Timmy",
+    "Beth",
 ]
 names2 = names
 random.shuffle(names)

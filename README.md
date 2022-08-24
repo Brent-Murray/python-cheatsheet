@@ -12,6 +12,7 @@ Table of Contents
 | [Arithmetic Operators](https://github.com/Brent-Murray/python-cheatsheets#arithmetic-operators)
 | [Comparison Operators](https://github.com/Brent-Murray/python-cheatsheets#comparison-operators)
 | [Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
+| [
 
 Variables
 ----
@@ -141,3 +142,32 @@ else:                          # else statement (final statement if none of abov
 
 Logical Operators
 ----
+````python
+a = 15
+b = 12
+
+# and operator
+if a > 3 and b < 4:            # and operator requires both statements to match
+  print("Both requirements match")
+else:
+  print("The requirements do not match")
+
+# or operator
+if a > 3 or b < 4:             # or operator requires either statement to match
+  print("Either requirements match)
+else:
+  print("Neither of the requirements match
+  
+# is operator
+a = True
+if a is True:                  # variable is True
+  print("a is True")
+else:
+  print("a is False)
+  
+# not operator
+if a is not True               # variable is not True
+  print("a is not True")
+else:
+  print("a is not False")
+````

@@ -9,6 +9,18 @@ my_integer = 15                # an integer (whole number with no decimal point)
 my_float = 6.4                 # a float (a number with a decimal point)
 my_boolean = True              # a boolean (either True or False)
 ```
+Commenting
+----
+````python
+# Using a # allows you to comment your code
+# Comments will not be executed
+
+"""
+This is a multiline string.
+You can use this to comment out multiple lines.
+This works if it is not assigned as a vairable.
+"""
+```
 
 Working with Strings
 ----

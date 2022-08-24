@@ -5,9 +5,13 @@ Useful scripts can be found in [scripts](https://github.com/Brent-Murray/python-
 
 Table of Contents
 ----
-| [Variables](https://github.com/Brent-Murray/python-cheatsheets#variables) | [Commenting](https://github.com/Brent-Murray/python-cheatsheets#commenting) | [Working with Strings](https://github.com/Brent-Murray/python-cheatsheets#working-with-strings) |
-| [Working with Lists](https://github.com/Brent-Murray/python-cheatsheets#working-with-lists) | [Arithmetic Operators](https://github.com/Brent-Murray/python-cheatsheets#arithmetic-operators) | [Comparison Operators](https://github.com/Brent-Murray/python-cheatsheets#comparison-operators) |
-[Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
+| [Variables](https://github.com/Brent-Murray/python-cheatsheets#variables)
+| [Commenting](https://github.com/Brent-Murray/python-cheatsheets#commenting)
+| [Working with Strings](https://github.com/Brent-Murray/python-cheatsheets#working-with-strings)
+| [Working with Lists](https://github.com/Brent-Murray/python-cheatsheets#working-with-lists)
+| [Arithmetic Operators](https://github.com/Brent-Murray/python-cheatsheets#arithmetic-operators)
+| [Comparison Operators](https://github.com/Brent-Murray/python-cheatsheets#comparison-operators)
+| [Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
 
 Variables
 ----

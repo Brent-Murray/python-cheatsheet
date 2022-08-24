@@ -125,3 +125,19 @@ print("Hello World")           # print statement
 statement = "This is a my print statement"
 print(statement)               # print variable
 ````
+
+If Else Statements
+----
+````python
+a = 12
+
+if a > 2:                      # if statement (if requirement is true)
+  print("a is greater than 2)
+elif a < 2:                    # elif statement (additional if statement if first requirement isn't met)
+  print("a is less than 2)
+else:                          # else statement (final statement if none of above requirements met)
+  print(a is equal to 2)
+````
+
+Logical Operators
+----

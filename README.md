@@ -2,6 +2,8 @@
 Python cheatsheet with examples. This cheatsheet will continually be updated so be sure to check back frequently!
 
 Useful scripts and functions that could be useful to you can be found in the [scripts](https://github.com/Brent-Murray/python-cheatsheets/tree/main/scripts) folder.
+* [Random Name Picker](https://github.com/Brent-Murray/python-cheatsheet/blob/main/scripts/name_picker.py)
+* [YouTube Downloader](https://github.com/Brent-Murray/python-cheatsheet/blob/main/scripts/youtube_download.py)
 
 Table of Contents
 ----

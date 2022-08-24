@@ -36,7 +36,7 @@ my_string[2:5]                 # returns characters between index position 2 and
 
 # F (formatted) strings
 beverage = "coffee"
-message = f"My favourite drink is {beverage}"
+message = f"My favourite drink is {beverage}"    # F strings allow you to input variables into strings with {}
 
 # String conversion
 message.upper()                # converts string to uppercase

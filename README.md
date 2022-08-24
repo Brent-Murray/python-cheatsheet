@@ -235,6 +235,7 @@ my_new_dict = dict(zip(keys, values)) # creates a dictionary from two lists usin
 ````
 
 Functions
+----
 ````python
 # Basic Function
 def my_basic_function(in_number):     # define a function with def

@@ -301,3 +301,7 @@ random.choice(my_list)                # use the choice module from random packag
 shuffle(my_list)                      # uses shuffle module from random without calling random first
 mean_list = stast.mean(my_list)       # uses stats (shortend from statistics in import) to run mean module
 ````
+
+Installing Packages
+----
+There are many more Python packages that are available one just needs to install them. These can be found from [PyPl](https://pypi.org/) as well as from [Anaconda](https://anaconda.org/anaconda/repo). Instructions for installing packages from PyPl can be found [here](https://packaging.python.org/en/latest/tutorials/installing-packages/) and from Anaconda [here](https://anaconda.org/anaconda/repo/installers).

@@ -36,9 +36,8 @@ my_boolean = True              # a boolean (either True or False)
 
 Commenting
 ----
-Comments are used to add notes to our code. It is important to incorporate comments into your code to allow future users (especially future you) to understand what is going on throughout the script. Comments can be a good way to also add a reminder for yourself or to break up large chunks of code.
+Comments are used to add notes to our code. It is important to incorporate comments into your code to allow future users (especially future you) to understand what is going on throughout the script. Comments can be a good way to also add a reminder for yourself or to break up large chunks of code. Using a `#` allows users to comment code which will not be exicuted.
 ````python
-# Using a # allows you to comment your code
 # Comments will not be executed
 
 """
@@ -50,7 +49,7 @@ This works if it is not assigned as a vairable.
 
 Working with Strings
 ----
-Strings are a group a characters that are surrounded by either single ('') or double quotes ("").
+Strings are a group a characters that are surrounded by either single `''` or double quotes `""`.
 ````python
 my_string = "Hello World"
 
@@ -83,7 +82,7 @@ message.endswith("coffee")     # returns boolean (True/False) if string ends wit
 
 Working with Lists
 ----
-Lists are a changeable, ordered sequence of elements in which each element is called an item. A list is defined by values between square brackets ([]) and commas (,) separating each item.
+Lists are a changeable, ordered sequence of elements in which each element is called an item. A list is defined by values between square brackets `[]` and commas `,` separating each item.
 ````python
 my_list = [5, 3, 4, 6, 10, 15] # a list is defined by []
 
@@ -108,7 +107,7 @@ my_list.clear()                # removes all items from list
 
 Working with Tuples
 ----
-Tuples are read-only lists that are defined by circle brackets (()) instead of square.
+Tuples are read-only lists that are defined by circle brackets `()` instead of square.
 ````python
 my_tuple = (5, 2, 4)           # tuples are read-only lists and defined by ()
 x, y, z = my_tuple             # unpack a tuple into separate variables (also works with lists)
@@ -146,7 +145,7 @@ x != y                         # returns boolean (True/False) if not equal to
 
 Print Statements
 ----
-Print statements allow users to print into the console. This is done by calling the `print()` function
+Print statements allow users to print into the console. This is done by calling the `print()` function.
 ````python
 print("Hello World")           # print statement
 
@@ -156,7 +155,7 @@ print(statement)               # print variable
 
 If Else Statements
 ----
-If Else statements are used to execute the True and False part of the script given a condition. These are defined with `if`, `elif` and `else`
+If Else statements are used to execute the True and False part of the script given a condition. These are defined with `if`, `elif` and `else`.
 ````python
 a = 12
 
@@ -170,7 +169,7 @@ else:                          # else statement (final statement if none of abov
 
 Logical Operators
 ----
-Logical operators are used to combine conditional statements. `and`, `or`, and `not` are logical operators'.
+Logical operators are used to combine conditional statements. `and`, `or`, and `not` are logical operators.
 ````python
 a = 15
 b = 12

@@ -15,24 +15,28 @@ Table of Contents
 | [Print Statements](https://github.com/Brent-Murray/python-cheatsheets#print-statements)
 | [If Else Statements](https://github.com/Brent-Murray/python-cheatsheets#if-else-statements)
 | [Logical Operators](https://github.com/Brent-Murray/python-cheatsheets#logical-operators)
-| [Augmented Assignment Operator](https://github.com/Brent-Murray/python-cheatsheets#augmented-assignment-operator)
+| [Augmented Assignment Operator](https://github.com/Brent-Murray/python-cheatsheets#assignment-operator)
 | [For and While Loops](https://github.com/Brent-Murray/python-cheatsheets#for-and-while-loops)
 | [Working with Dictionaries](https://github.com/Brent-Murray/python-cheatsheets#working-with-dictionaries)
 | [Functions](https://github.com/Brent-Murray/python-cheatsheets#functions)
 | [Exceptions](https://github.com/Brent-Murray/python-cheatsheets#exceptions)
 | [Python Standard Library and Importing](https://github.com/Brent-Murray/python-cheatsheets#python-standard-library-and-importing)
+| [Installing Packages](https://github.com/Brent-Murray/python-cheatsheets#installing-packages)
 |
 
 Variables
 ----
+Variables are used to store data in a computers memory temporarily.
 ```python
 my_string = "Hello World"      # a string (a series of characters in between "" or '')
 my_integer = 15                # an integer (whole number with no decimal point)
 my_float = 6.4                 # a float (a number with a decimal point)
 my_boolean = True              # a boolean (either True or False)
 ```
+
 Commenting
 ----
+Comments are used to add notes to our code. It is important to incorporate comments into your code to allow future users (especially future you) to understand what is going on throughout the script. Comments can be a good way to also add a reminder for yourself or to break up large chunks of code.
 ````python
 # Using a # allows you to comment your code
 # Comments will not be executed
@@ -46,6 +50,7 @@ This works if it is not assigned as a vairable.
 
 Working with Strings
 ----
+Strings are a group a characters that are surrounded by either single ('') or double quotes ("").
 ````python
 my_string = "Hello World"
 
@@ -75,8 +80,10 @@ contains = "drink" in message  # returns boolean (True/False) if string contains
 message.startswith('My')       # returns boolean (True/False) if string starts with character/string
 message.endswith("coffee")     # returns boolean (True/False) if string ends with character/string
 ````
+
 Working with Lists
 ----
+Lists are a changeable, ordered sequence of elements in which each element is called an item. A list is defined by values between square brackets ([]) and commas (,) separating each item.
 ````python
 my_list = [5, 3, 4, 6, 10, 15] # a list is defined by []
 
@@ -101,6 +108,7 @@ my_list.clear()                # removes all items from list
 
 Working with Tuples
 ----
+Tuples are read-only lists that are defined by circle brackets (()) instead of square.
 ````python
 my_tuple = (5, 2, 4)           # tuples are read-only lists and defined by ()
 x, y, z = my_tuple             # unpack a tuple into separate variables (also works with lists)
@@ -108,6 +116,7 @@ x, y, z = my_tuple             # unpack a tuple into separate variables (also wo
 
 Arithmetic Operators
 ----
+Aritmetic operators allow you to perform calculations of two values.
 ````python
 x = 2
 y = 10
@@ -122,6 +131,7 @@ x % y                          # modulus (remainder of division)
 
 Comparison Operators
 ----
+Comparison operators compare variables to perform an evaluation. These produce a boolean return (True/False).
 ````python
 x = 8
 y = 15
@@ -136,6 +146,7 @@ x != y                         # returns boolean (True/False) if not equal to
 
 Print Statements
 ----
+Print statements allow users to print into the console. This is done by calling the `print()` function
 ````python
 print("Hello World")           # print statement
 
@@ -145,6 +156,7 @@ print(statement)               # print variable
 
 If Else Statements
 ----
+If Else statements are used to execute the True and False part of the script given a condition. These are defined with `if`, `elif` and `else`
 ````python
 a = 12
 
@@ -158,6 +170,7 @@ else:                          # else statement (final statement if none of abov
 
 Logical Operators
 ----
+Logical operators are used to combine conditional statements. `and`, `or`, and `not` are logical operators'.
 ````python
 a = 15
 b = 12
@@ -174,13 +187,13 @@ if a > 3 or b < 4:             # or operator requires either statement to match
 else:
   print("Neither of the requirements match
   
-# is operator
+# using is
 a = True
 if a is True:                  # variable is True
   print("a is True")
 else:
-  print("a is False)
-  
+  print("a is False)  
+
 # not operator
 if a is not True               # variable is not True
   print("a is not True")
@@ -188,8 +201,9 @@ else:
   print("a is not False")
 ````
 
-Augmented Assignment Operator
+Assignment Operator
 ----
+Assignment operators are used to assign values to a variable with one of the [Arithmetic Operators](https://github.com/Brent-Murray/python-cheatsheets#arithmetic-operators).
 ````python
 x = 5
 x = x + 5                      # add 5 to x and reassign variable x
@@ -203,6 +217,7 @@ x **=2                         # power of 2 to x and reassign x
 
 For and While Loops
 ----
+`for` and `while` loops iterate through a sequence performing a some sort of function. `for` loops iterate through every item in the defined sequence where `while` loops iterate through the sequence as long as the condition is true. 
 ````python
 # For loop
 sequence = range(1, 7)         # range function creates sequence of numbers between values
@@ -218,6 +233,7 @@ while i < 10:                  # loop while condition is met
 
 Working with Dictionaries
 ----
+Dictionaries are used to store data in key/value pairs.
 ````python
 my_dict = {                    # define dictionaries with {}
   "First Key": "First Value",  # key and value pairs separated with :
@@ -239,6 +255,7 @@ my_new_dict = dict(zip(keys, values)) # creates a dictionary from two lists usin
 
 Functions
 ----
+Functions are user defined blocks of code that only run when they are called and can perform tasks and return data as a result. `def` is used to define a function.
 ````python
 # Basic Function
 def my_basic_function(in_number):     # define a function with def
@@ -267,8 +284,8 @@ my_addition_function(2, 15)           # returns 17
 
 Exceptions
 ----
+Exceptions are errors that stop the script from running. To handel these errors `try` and `except` are used where `try` runs the section of code beneath it testing for errors. If an error occurs the `except` block allows for error handling and specific tasks can be performed.
 ````python
-# Exceptions are errors that stop the script from running
 try:                                       # first try this if error occurs go to except
   population = int(input("Population: "))  # int makes variable an integer and input asks user for input in console
   income = int(input("Income: "))
@@ -304,4 +321,4 @@ mean_list = stast.mean(my_list)       # uses stats (shortend from statistics in 
 
 Installing Packages
 ----
-There are many more Python packages that are available one just needs to install them. These can be found from [PyPl](https://pypi.org/) as well as from [Anaconda](https://anaconda.org/anaconda/repo). Instructions for installing packages from PyPl can be found [here](https://packaging.python.org/en/latest/tutorials/installing-packages/) and from Anaconda [here](https://anaconda.org/anaconda/repo/installers).
+There are many more Python packages that are available one just needs to install them. These can be found from [PyPl](https://pypi.org/) as well as from [Anaconda](https://anaconda.org/anaconda/repo). Instructions for installing packages from PyPl can be found [here](https://packaging.python.org/en/latest/tutorials/installing-packages/) and from Anaconda [here](https://anaconda.org/anaconda/repo/installers). Once a packages has been installed importing them can be done the same way as described in the [Python Standard Library and Importing](https://github.com/Brent-Murray/python-cheatsheets#python-standard-library-and-importing) section.

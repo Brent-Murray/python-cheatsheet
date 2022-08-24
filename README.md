@@ -104,3 +104,12 @@ x <= y                         # returns boolean (True/False) if less than or eq
 x == y                         # returns boolean (True/False) if equal to
 x != y                         # returns boolean (True/False) if not equal to
 ````
+
+Print Statements
+----
+````python
+print("Hello World")           # print statement
+
+statement = "This is a my print statement"
+print(statement)               # print variable
+````

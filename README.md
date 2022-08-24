@@ -262,3 +262,18 @@ def my_addition_function(first_number, second_number=10):
 my_addition_function(2)               # returns 12
 my_addition_function(2, 15)           # returns 17 
 ````
+
+Exceptions
+----
+````python
+# Exceptions are errors that stop the script from running
+try:                                       # first try this if error occurs go to except
+  population = int(input("Population: "))  # int makes variable an integer and input asks user for input in console
+  income = int(input("Income: "))
+  value = income / population
+  print(f"${value:.2f} per person          #:.2f rounds the value variable to two decimal places in F string
+except ValueError:                         # ValueError is raised if input is not a valid number
+  print("Input is not a valid number")
+except ZeroDivisionError:                  # ZeroDivisionError is raised if population is 0
+  print("Population cannot be 0")
+````

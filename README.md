@@ -164,11 +164,11 @@ If Else statements are used to execute the True and False part of the script giv
 a = 12
 
 if a > 2:                      # if statement (if requirement is true)
-  print("a is greater than 2)
+  print("a is greater than 2")
 elif a < 2:                    # elif statement (additional if statement if first requirement isn't met)
-  print("a is less than 2)
+  print("a is less than 2")
 else:                          # else statement (final statement if none of above requirements met)
-  print(a is equal to 2)
+  print("a is equal to 2")
 ````
 
 Logical Operators
@@ -186,16 +186,16 @@ else:
 
 # or operator
 if a > 3 or b < 4:             # or operator requires either statement to match
-  print("Either requirements match)
+  print("Either requirements match")
 else:
-  print("Neither of the requirements match
+  print("Neither of the requirements match")
   
 # using is
 a = True
 if a is True:                  # variable is True
   print("a is True")
 else:
-  print("a is False)  
+  print("a is False")  
 
 # not operator
 if a is not True               # variable is not True

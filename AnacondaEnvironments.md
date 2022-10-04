@@ -24,31 +24,6 @@ Once you have an environment created you can then add packages to it by running 
 
 <br>
 
-### Recommended Packages for Base Environments
-
-Some packages that should be installed onto the base environment:
-
-| GIS Packages | Description |  | RA Packages| Description |
-| --- | --- | --- | --- | ---|
-| NumPy | Used for numerical computing |  | NumPy | Used for numerical computing |
-| Pandas | Data analysis and manipulation |  | Pandas | Data analysis and manipulation |
-| GeoPandas| Geospatial data analysis and manipulation |  | GeoPandas | Geospatial data analysis and manipulation |
-| TQDM | Progress bar for python |  | TQDM | Progress bar for python |
-| Jupyter Notebook | Python Notebook |  | Jupyter Notebook | Python Notebook |
-| Nbextensions | Jupyter notebook extensions | | Nbextensions | Jupyter notebook extensions |
-| ArcPy | ArcGIS scripting module |  | SQLAlchemy | Python SQL Toolkit |
-| ArcGIS | ArcGIS Module for ArcGIS Online and Enterprise |  | Psycopg2 | PostgreSQL database adapter |
-| GeoPy | Geocoding services |  |Pyodcb | Access ODBC databases | 
-| Shapely | Manipulation and analysis of geometric objects |  | Openpyxl | Reading and writing Excel files |
-| Fiona | Reading and writing geospatial data |  | Matplotlib | Creating visualizations |
-| Openpyxl | Reading and writing Excel files |  |  |  |
-| Matplotlib | Creating visualizations |  |  |  |
-
-
-*If a new library or an update is required it is important to export a YAML or Text file as to have a backup in case the new package or update breaks the dependencies.*
-
-<br>
-
 ## Cloning Environments
 There are three ways to clone environments: creating a Direct Clone; using YAML files or using Text files.
 

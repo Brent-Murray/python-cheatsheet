@@ -5,11 +5,6 @@ Creating Environments will allow users to run sets of code related to each envir
 
 <br>
 
-## Creating Base Environments
-I believe that the best way forward is to have a base environment that has core packages/versions that we know will work well together. We can then clone this base environment to add any additional libraries to. These base environments might be specific to GIS and RA or we might be able to share the same base environments. These base environments will also allow us to have specific versions of python so we can work with what is appropriate for the project.
-
-<br>
-
 ### How to Create An Empty Anaconda Environment
 
 To create a new Anaconda Environment in the run `conda env create -n env_name`. This will create an Anaconda Environment with no packages installed. *If you would like to run a specific version of Python in you environment run `conda env create -n env_name python=<version number>`.*

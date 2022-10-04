@@ -1,7 +1,7 @@
 # Anaconda Environments
 https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
-Creating Environments for the GIS and RA teams will allow users to run sets of code related to each environment without having issue with versions and dependencies.
+Creating Environments will allow users to run sets of code related to each environment without having issue with versions and dependencies.
 
 <br>
 
@@ -21,6 +21,8 @@ To create a new Anaconda Environment in the run `conda env create -n env_name`. 
 Once you have an environment created you can then add packages to it by running `conda install -n env_name <package name>` in the Anaconda Prompt. Similarly to installing a specific Python version you can install specific versions of packages as well by running `conda install -n env_name <package name>=<version number>`.
 
 *Replace 'env_name' with the name of the environment you want to create*
+
+*If a new library or an update is required it is important to export a YAML or Text file as to have a backup in case the new package or update breaks the dependencies.*
 
 <br>
 

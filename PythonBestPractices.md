@@ -1,4 +1,6 @@
 # Python Best Practices
+These best practices are subjective and are here for those who are looking to learn or adapt their current Python practices. Hopefully you can use or adapt these pracitces to help you further Python skills.
+
 ## Project Structuring
     my_project             # Root directory of the project
     ├── code               # Source codes
@@ -78,8 +80,3 @@ Documentation is a must when creating different modules. This is usually found w
 
 ## Virtual Environments
 Virtual environments are very useful when building different modules for different projects. This can be kept in the config folder as well as within the requirements.txt file. These environments have their own dependency trees and package version that are specific to this project. 
-
-
-```python
-
-```
